@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudGamingPro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">CloudGamingPro</div>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to the Future of Gaming</h1>
+            <p>Play anytime, anywhere, on any device.</p>
+            <a href="#features" class="cta-button">Explore More</a>
+        </div>
+    </section>
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-card">
+            <img src="./images/highperformance.jpg" alt="High Performance">
+            <h3>High Performance</h3>
+            <p>Experience top-tier gaming performance directly from the cloud.</p>
+        </div>
+        <div class="feature-card">
+            <img src="./images/crossplatform.jpg" alt="Cross-Platform">
+            <h3>Cross-Platform</h3>
+            <p>Seamless gaming across multiple devices and platforms.</p>
+        </div>
+        <div class="feature-card">
+            <img src="./images/instantaccess.jpg" alt="Instant Access">
+            <h3>Instant Access</h3>
+            <p>Get instant access to your favorite games anytime, anywhere.</p>
+        </div>
+    </section>
+    <section id="games" class="games">
+        <h2>Our Games</h2>
+        <div class="game-list">
+            <div class="game-card">
+                <img src="./images/tic.jpg" alt="TIC-TAC-TOE">
+                <h3>TIC-TAC-TOE</h3>
+                <p>Play with just two letters.</p>
+                <button class="play-button" onclick="redirectTo('tic-tac-toe.html')">Play Now</button>
+            </div>
+            <div class="game-card">
+                <img src="./images/rocket.jpg" alt="ROCKET RIDE">
+                <h3>ROCKET RIDE</h3>
+                <p>No problem if you don't know how to drive.</p>
+                <button class="play-button" onclick="redirectTo('rocket-game.html')">Play Now</button>
+            </div>
+            <div class="game-card">
+                <img src="./images/brick.png" alt="FLAPPY BIRD">
+                <h3>FLAPPY BIRD</h3>
+                <p>fly between two pipes.</p>
+                <button class="play-button" onclick="redirectTo('flappy-bird.html')">Play Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="./images/forzhan.jpg" alt="Gallery Image 1">
+            <img src="./images/just.jpg" alt="Gallery Image 2">
+            <img src="./images/supermario.jpg" alt="Gallery Image 3">
+            <img src="./images/pubg.jpg" alt="Gallery Image 4">
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 CloudGamingPro. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
